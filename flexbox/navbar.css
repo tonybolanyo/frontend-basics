@@ -1,0 +1,20 @@
+:root {
+  --color-primary: #6aeeb5;
+  --color-primary-hover: #29e6a7;
+  --color-gray-100: #f0f7f8;
+  --color-gray-200: #cfd8dc;
+
+  --border-radius: 0.25rem;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
