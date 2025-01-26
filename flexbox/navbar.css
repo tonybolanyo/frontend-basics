@@ -1,8 +1,13 @@
 :root {
   --color-primary: #6aeeb5;
   --color-primary-hover: #29e6a7;
+  --color-primary-dark: #039d69;
+
   --color-gray-100: #f0f7f8;
   --color-gray-200: #cfd8dc;
+  --color-gray-900: #263238;
+
+  --radius: .25rem;
 }
 
 *,
@@ -20,9 +25,47 @@ body {
 ul.nav {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: .5rem 1rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   background-color: var(--color-gray-100);
   border-bottom: 1px solid var(--color-gray-200);
+  align-items: center;
+}
+
+ul.nav .nav-item {
+  margin: 0 .75rem;
+}
+
+ul.nav .nav-item a {
+  text-decoration: none;
+  color: var(--color-gray-900);
+  transition: all 200ms ease-in-out;
+}
+
+ul.nav .nav-item a:hover {
+  color: var(--color-primary-dark);
+}
+
+ul.nav .nav-item:first-child {
+  margin-right: auto;
+}
+
+.nav-logo {
+  border-color: var(--color-primary-dark)
+}
+
+.btn-primary {
+  background-color: var(--color-primary-dark);
+  color: var(--color-gray-100);
+  padding: .5rem 1rem;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-hover);
+  transition: all 200ms ease-in-out;
 }
