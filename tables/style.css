@@ -1,0 +1,38 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #9D1B28;
+  color: #EDE9E8;
+  padding: 1rem;
+  font-weight: bolder;
+}
+
+article {
+  padding: 1rem;
+}
+
+footer {
+  background-color: #2F131E;
+  color: #EDE9E8;
+  padding: 1rem;
+}
+
+table,
+tr,
+th,
+td,
+caption {
+  border: 1px solid #2F131E;
+  border-collapse: collapse;
+  padding: .5rem;
+}
