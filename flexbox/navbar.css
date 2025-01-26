@@ -1,11 +1,12 @@
 :root {
-  --color-primary: #6aeeb5;
-  --color-primary-hover: #29e6a7;
-  --color-primary-dark: #039d69;
+  --color-primary: #DE3C4B;
+  --color-primary-dark: #D12335;
+  --color-primary-darkest: #9D1B28;
+  --color-primary-hover: #C02130;
 
-  --color-gray-100: #f0f7f8;
-  --color-gray-200: #cfd8dc;
-  --color-gray-900: #263238;
+  --color-neutral-100: #EDE9E8;
+  --color-neutral-200: #E4DEDD;
+  --color-neutral-900: #2F131E;
 
   --radius: .25rem;
 }
@@ -28,8 +29,8 @@ ul.nav {
   padding: .5rem 1rem;
   display: flex;
   justify-content: flex-end;
-  background-color: var(--color-gray-100);
-  border-bottom: 1px solid var(--color-gray-200);
+  background-color: var(--color-neutral-100);
+  border-bottom: 1px solid var(--color-neutral-200);
   align-items: center;
 }
 
@@ -39,7 +40,7 @@ ul.nav .nav-item {
 
 ul.nav .nav-item a {
   text-decoration: none;
-  color: var(--color-gray-900);
+  color: var(--color-neutral-900);
   transition: all 200ms ease-in-out;
 }
 
@@ -56,8 +57,8 @@ ul.nav .nav-item:first-child {
 }
 
 .btn-primary {
-  background-color: var(--color-primary-dark);
-  color: var(--color-gray-100);
+  background-color: var(--color-primary);
+  color: var(--color-neutral-100);
   padding: .5rem 1rem;
   border: none;
   border-radius: var(--radius);
